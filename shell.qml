@@ -157,23 +157,23 @@ ShellRoot {
                 dashPattern: [1, 4]
                 strokeWidth: 4
 
-                startX: window.areaX1 - 2
-                startY: window.areaY1 - 2
+                startX: window.areaX1 - 4
+                startY: window.areaY1 - 4
                 PathLine {
-                    x: window.areaX2 + 2
-                    y: window.areaY1 - 2
+                    x: window.areaX2 + 4
+                    y: window.areaY1 - 4
                 }
                 PathLine {
-                    x: window.areaX2 + 2
-                    y: window.areaY2 + 2
+                    x: window.areaX2 + 4
+                    y: window.areaY2 + 4
                 }
                 PathLine {
-                    x: window.areaX1 - 2
-                    y: window.areaY2 + 2
+                    x: window.areaX1 - 4
+                    y: window.areaY2 + 4
                 }
                 PathLine {
-                    x: window.areaX1 - 2
-                    y: window.areaY1 - 2
+                    x: window.areaX1 - 4
+                    y: window.areaY1 - 4
                 }
             }
         }
